@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(72, 62, 89);
+    color: rgb(255, 255, 255);
+    font-family: Tahoma;
+    font-size: 18px;
+  }
+h1, p:first-of-type {
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    text-align: center;
+  }
+p:first-of-type{
+  margin-bottom: 2em;
+}
+ form {
+    box-shadow: 0 0  20px 0 rgb(24, 19, 46);
+    background-color: rgba(24, 19, 46, 0.71);
+    border-radius: 10px;
+    margin: auto;
+    max-width: 700px;
+    min-width: 400px;
+    padding-bottom: 1em;
+  }
+  legend {
+    font-weight: bold;
+    margin: auto;
+    padding: 10px 0 0 0;
+  }
+
+  label {
+    display: block;
+    padding: 10px 0 ;
+    margin: auto;
+  }
+  input, textarea, select {
+    display: block;
+    width: 100%;
+    padding: 0.5em 0;
+    border-radius: 5px;
+  }
+  input[type="radio"]{
+    margin: 0 10px 0 0;
+  }
+  fieldset{
+    position: relative;
+    border: none;
+    padding: 20px 20px;
+  }
+  fieldset::before {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left: 10%; /* Ajuste a posição horizontal da borda inferior conforme necessário */
+    width: 80%; /* Define a largura da borda inferior */
+    border-bottom: 2px solid #ccc; /* Estilo da borda inferior */
+  }
+  .checkbox{
+  margin-bottom: 2em;
+  }
+
+  .inline {
+    display: inline;
+    width: unset;
+  }
+input[type="submit"] {
+    width: 80%;
+    padding: 0.8em;
+    background-color: #45104e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+input[type="submit"]:hover {
+    background-color: #660c78;
+}
